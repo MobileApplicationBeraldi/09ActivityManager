@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item android:id="@+id/Apps" android:title="Apps running"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/services" android:title="Services"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/intent" android:title="Installed apps"
+        app:showAsAction="never"
+        />
+
+
+</menu>
